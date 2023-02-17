@@ -44,16 +44,19 @@ public class ArticleController {
     }
 
     @PostMapping("/listArchives")
+    @LogAnnotation(module = "文章",operation = "获取文章归档数据")
     public Result listArchives(){
         return articleService.listArchives();
     }
 
     @PostMapping("/view/{id}")
+    @LogAnnotation(module = "文章",operation = "获取文章详情")
     public Result findArticleById(@PathVariable("id")Long articleId){
         return articleService.findArticleById(articleId);
     }
 
     @PostMapping("/publish")
+    @LogAnnotation(module = "文章",operation = "文章上传")
     public Result publish(@RequestBody ArticleParam  articleParam){
         return articleService.publish(articleParam);
     }
