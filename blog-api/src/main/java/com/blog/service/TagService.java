@@ -5,11 +5,6 @@ import com.blog.vo.toParams.TagVo;
 
 import java.util.List;
 
-/**
- * @Author: 34848
- * @Date: 2023/01/13/19:16
- * @Description:
- */
 public interface TagService {
     List<TagVo> findTagsByArticleId(Long articleId);
 

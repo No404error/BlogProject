@@ -6,11 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Component;
 
-/**
- * @Author: 34848
- * @Date: 2023/01/15/15:49
- * @Description:
- */
 @Component
 public class ThreadService {
     @Autowired
