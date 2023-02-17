@@ -50,4 +50,4 @@
 | category | {id: 2, avatar: "/category/back.png", categoryName: "后端"} | 文章类别           |
 | summary  | string                                                      | 文章概述           |
 | tags     | [{id: 5}, {id: 6}]                                          | 文章标签           |
-#### 响应数据：ArticleVo
+#### 响应数据: 文章id
