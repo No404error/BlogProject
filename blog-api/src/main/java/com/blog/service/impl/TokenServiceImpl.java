@@ -13,11 +13,6 @@ import org.springframework.stereotype.Service;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
-/**
- * @Author: 34848
- * @Date: 2023/01/14/15:56
- * @Description:针对token的底层服务
- * */
 @Service
 public class TokenServiceImpl implements TokenService {
     @Autowired

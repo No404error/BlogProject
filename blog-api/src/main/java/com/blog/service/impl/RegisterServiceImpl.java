@@ -14,11 +14,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-/**
- * @Author: 34848
- * @Date: 2023/01/14/16:52
- * @Description:
- */
 @Service
 @Transactional
 public class RegisterServiceImpl implements RegisterService {
