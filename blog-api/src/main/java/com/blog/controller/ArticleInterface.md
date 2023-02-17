@@ -41,17 +41,6 @@
 ## 6.文章上传
 #### 接口url：/articles/publish
 #### 请求方式：POST
-    private Long id;
-
-    private ArticleBodyParam body;
-
-    private CategoryVo category;
-
-    private String summary;
-
-    private List<TagVo> tags;
-
-    private String title;
 #### 请求参数：
 | 参数名称 | 参数类型                                                    | 说明               |
 | -------- | ----------------------------------------------------------- | ------------------ |
