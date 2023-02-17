@@ -9,12 +9,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * @Author: 34848
- * @Date: 2023/01/14/9:59
- * @Description:
- */
-
 @RestController
 @RequestMapping("/login")
 public class LoginController {
