@@ -13,11 +13,6 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.util.UUID;
 
-/**
- * @Author: 34848
- * @Date: 2023/02/15/19:46
- * @Description:
- */
 @RestController
 @RequestMapping("/upload")
 public class UploadController {
